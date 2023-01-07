@@ -23,6 +23,10 @@
         }
     },
     "bin": "BBDown.exe",
+    "pre_install": [
+        "if (-not (Test-Path \"$persist_dir\\BBDown.config\")) { New-Item \"$dir\\BBDown.config\" -ItemType file | Out-Null }",
+        "if (-not (Test-Path \"$persist_dir\\BBDown.data\")) { New-Item \"$dir\\BBDown.data\" -ItemType file | Out-Null }"
+    ],
     "persist": [
         "BBDown.config",
         "BBDown.data"
