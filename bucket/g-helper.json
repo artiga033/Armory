@@ -1,5 +1,5 @@
 {
-    "version": "0.89",
+    "version": "0.91",
     "description": "Lightweight Armoury Crate alternative for Asus laptops. Control tool for ROG Zephyrus G14, G15, Flow X13, Flow X16, TUF, Strix, Scar and other models",
     "homepage": "https://github.com/seerge/g-helper",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/seerge/g-helper/releases/download/v0.89/GHelper.zip",
-            "hash": "802a8d021f55cb6bdcb05b83b70d1b2fb4ed164fb29e9c28cadbc0f7080eed75"
+            "url": "https://github.com/seerge/g-helper/releases/download/v0.91/GHelper.zip",
+            "hash": "5958bac6b82b69363cda9b8030ec236944341ad82fb3d16bbff834f0d59ca455"
         }
     },
     "bin": "GHelper.exe",
