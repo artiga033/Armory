@@ -1,12 +1,12 @@
 {
-    "version": "2.0.2.59",
+    "version": "2.0.2.61",
     "description": "Xbox下载助手，支持Xbox、微软商店、PS、NS、EA Desktop & Origin、战网国际服、Epic、Riot Games下载加速。",
     "homepage": "https://github.com/skydevil88/XboxDownload",
     "license": "Unknown",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/skydevil88/XboxDownload/releases/download/v2.0.2.59/XboxDownload.zip",
-            "hash": "2a3b9fdba0bc5fdd9c01bfd5e6d7f709f69afb1207785e792eee2edfd0415241",
+            "url": "https://github.com/skydevil88/XboxDownload/releases/download/v2.0.2.61/XboxDownload.zip",
+            "hash": "766a16200a890ee4204124aff3757b27fa1b3ca9242c686208c6a6098b965923",
             "extract_dir": "Xbox下载助手"
         }
     },
