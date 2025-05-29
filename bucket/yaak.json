@@ -1,5 +1,5 @@
 {
-    "version": "2025.2.3",
+    "version": "2025.3.1",
     "description": "The most intuitive desktop API client. Organize and execute REST, GraphQL, WebSockets, Server Sent Events, and gRPC 🦬",
     "homepage": "https://yaak.app",
     "license": "MIT",
