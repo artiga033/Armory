@@ -1,10 +1,10 @@
 {
-    "version": "2025.10.06",
+    "version": "2025.10.20",
     "description": "Open source Pan-CJK pixel font / 开源的泛中日韩像素字体 (12px proportional)",
     "homepage": "https://github.com/TakWolf/ark-pixel-font",
     "license": "OFL-1.1",
-    "url": "https://github.com/TakWolf/ark-pixel-font/releases/download/2025.10.06/ark-pixel-font-12px-proportional-otf-v2025.10.06.zip",
-    "hash": "c1616006ac3de64e7b9baf09b8407f3b75aa0b7f1835b72b05a9a1b1b764cbd0",
+    "url": "https://github.com/TakWolf/ark-pixel-font/releases/download/2025.10.20/ark-pixel-font-12px-proportional-otf-v2025.10.20.zip",
+    "hash": "03a47f70830eea8a9708f299fce7f364b6643d1cd563bd52a2a18539af3a7216",
     "installer": {
         "script": [
             "$currentBuildNumber = [int] (Get-ItemProperty \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\").CurrentBuildNumber",
