@@ -1,13 +1,18 @@
 {
-    "version": "2.0.3.0",
-    "description": "Xbox下载助手，支持Xbox、微软商店、PS、NS、EA Desktop & Origin、战网国际服、Epic、Riot Games下载加速。",
+    "version": "3.0.0.55",
+    "description": "Xbox Download Assistant (Xbox下载助手) — Supports download acceleration for Xbox, Microsoft Store, PlayStation, Nintendo Switch, EA App, Battle.net, Epic Games, Ubisoft Connect, Riot Games, and Rockstar Games, and fixes access issues for Steam Store & Community and GitHub.",
     "homepage": "https://github.com/skydevil88/XboxDownload",
     "license": "Unknown",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/skydevil88/XboxDownload/releases/download/v2.0.3.0/XboxDownload.zip",
-            "hash": "3704eb0c0b0c212bbaf183d10d09922b1aef51702f9cba7a6d79786724e1416b",
-            "extract_dir": "Xbox下载助手"
+            "url": "https://github.com/skydevil88/XboxDownload/releases/download/v3.0.0.55/XboxDownload-windows-x64.zip",
+            "hash": "49e638b12381414877b572de3a4621e94a7ce24152a135a9b9404c438e95f91c",
+            "extract_dir": "XboxDownload-windows-x64"
+        },
+        "arm64": {
+            "url": "https://github.com/skydevil88/XboxDownload/releases/download/v3.0.0.55/XboxDownload-windows-arm64.zip",
+            "hash": "c28cd98ced9aaaaa318baedab58dba53c02765639e249bd3bf4101f87c858b24",
+            "extract_dir": "XboxDownload-windows-arm64"
         }
     },
     "bin": "XboxDownload.exe",
@@ -22,8 +27,12 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/skydevil88/XboxDownload/releases/download/v$version/XboxDownload.zip",
-                "extract_dir": "Xbox下载助手"
+                "url": "https://github.com/skydevil88/XboxDownload/releases/download/v$version/XboxDownload-windows-x64.zip",
+                "extract_dir": "XboxDownload-windows-x64"
+            },
+            "arm64": {
+                "url": "https://github.com/skydevil88/XboxDownload/releases/download/v$version/XboxDownload-windows-arm64.zip",
+                "extract_dir": "XboxDownload-windows-arm64"
             }
         }
     }
