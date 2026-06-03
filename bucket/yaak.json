@@ -11,13 +11,13 @@
     },
     "bin": [
         [
-            "yaak-app.exe",
+            "yaak-app-client.exe",
             "yaak"
         ]
     ],
     "shortcuts": [
         [
-            "yaak-app.exe",
+            "yaak-app-client.exe",
             "Yaak"
         ]
     ],
