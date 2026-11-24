@@ -1,0 +1,38 @@
+{
+    "version": "0.4.5",
+    "description": "ente is Ente's client for terminals and agents. Use it from a shell or a script for things like keeping a copy of your Photos library on your own disk, backing up your Auth codes, or administering your own server.",
+    "homepage": "https://ente.com/help/cli/",
+    "license": "AGPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ente/ente/releases/download/ente-cli-v0.4.5/ente-cli-v0.4.5-windows-amd64.zip",
+            "hash": "fc06d5c2aa4e29da0eed21e88fcba27bd9040b2476620e6b8a8c16e438079d94"
+        },
+        "arm64": {
+            "url": "https://github.com/ente/ente/releases/download/ente-cli-v0.4.5/ente-cli-v0.4.5-windows-arm64.zip",
+            "hash": "30377706d0a5cc7ba3fdcb1a5a5f1c0d3c853e9c32dfeab5f82167ec68f99410"
+        }
+    },
+    "env_set": {
+        "ENTE_CLI_HOME": "$persist_dir\\data"
+    },
+    "bin": "ente.exe",
+    "persist": "data",
+    "checkver": {
+        "url": "https://github.com/ente/ente/releases?q=tag%3Aente-cli-v0",
+        "regex": "/releases/tag/ente-cli-v(0\\.\\d+\\.\\d+)\""
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/ente/ente/releases/download/ente-cli-v$version/ente-cli-v$version-windows-amd64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/ente/ente/releases/download/ente-cli-v$version/ente-cli-v$version-windows-arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/SHA256SUMS"
+        }
+    }
+}
